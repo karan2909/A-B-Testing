@@ -1,36 +1,34 @@
-# A-B-Testing
+# A/B Testing Experiment README
 
-Project Title: Subscription Button Redesign Analysis
+## 1) Current State
+Current subscription rate is 12%. Company wants to access by changing design feature whether conversion rate will increase to 15%.
 
-Description:
-The objective of this project is to evaluate the impact of a redesigned subscription button on a subset of users compared to the previous design. The company aims to assess whether the new design increases the subscription rate by at least 3% without causing a decrease in subscriptions. This analysis will help determine whether the redesigned button is effective in attracting new subscribers while ensuring existing subscribers are retained.
-
+## 2) Experiment Proposed
+Redesigned page such that CTR will improve.
 ![Image Description](https://github.com/karan2909/A-B-Testing/blob/main/A_B%20Testing.png)
 
 
-Key Objectives:
+## 3) Experiment Goal
+Hypothesis being that with change in design, visibility of subscribe button will improve which in turn will increase the conversions. Also business leaders want to access, whether the new design in making the conversions worse.
 
-Evaluate the performance of the redesigned subscription button compared to the previous design.
-Determine if the new design increases the subscription rate by at least 3%.
-Ensure that the new design does not result in a decrease in subscription rates.
+## 4) Experiment Design
+### a) Hypothesis
+Null Hypothesis : No change in CTR.
+Alternate Hypotheis : There is a change in CTR.
 
-Key Metric:
+### b) Metric
+CTR
 
-Click Through Rate (CTR)
+### c) Invariant Metrics
+Number of cookies: The number of unique cookies in the treatment and control groups should be the same to make a comparison between the two groups
 
-Approach:
+### d) Evaluation Metrics
+We perform z test both one tailed and two tailed to access the impact of design change.
 
-Find the appropiate sample size for the experiment.
-Basis the sample size, randomly assign users to two groups: one group sees the old subscription button, while the other group sees the redesigned button.
-Monitor the subscription rates for each group over a specified time period.
-Analyze the subscription data to determine if there is a statistically significant difference in subscription rates between the two groups.
-Calculate the percentage increase in subscriptions with the new button and compare it to the minimum threshold of 3% set by the company.
-Assess any potential negative impacts of the new design on subscription rates.
+### e) Sizing Experiment
+![Image Description](https://github.com/karan2909/A-B-Testing/blob/main/A_B%20Testing.png)
 
-Outcome : 
+
+## 5) Experiment Analysis
 Our statistical tests have revealed that the new design is not doing a better job at attracting customers to become subscribers to our site than the old design. Although the new design is not necessarily losing us customers either, business leaders may consider if they would like to revert back to the old design, or continue to try other solutions to attempt to attract more subscribers.
-
-
-
-
 
