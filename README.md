@@ -5,6 +5,9 @@ Project Title: Subscription Button Redesign Analysis
 Description:
 The objective of this project is to evaluate the impact of a redesigned subscription button on a subset of users compared to the previous design. The company aims to assess whether the new design increases the subscription rate by at least 3% without causing a decrease in subscriptions. This analysis will help determine whether the redesigned button is effective in attracting new subscribers while ensuring existing subscribers are retained.
 
+![Image Description](image_url)
+
+
 Key Objectives:
 
 Evaluate the performance of the redesigned subscription button compared to the previous design.
