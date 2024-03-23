@@ -19,14 +19,11 @@ Alternate Hypotheis : There is a change in CTR.
 ### b) Metric
 CTR
 
-### c) Invariant Metrics
-Number of cookies: The number of unique cookies in the treatment and control groups should be the same to make a comparison between the two groups
-
-### d) Evaluation Metrics
+### c) Evaluation Metrics
 We perform z test both one tailed and two tailed to access the impact of design change.
 
-### e) Sizing Experiment
-![Image Description](https://github.com/karan2909/A-B-Testing/blob/main/A_B%20Testing.png)
+### d) Sizing Experiment
+![Image Description](https://github.com/karan2909/A-B-Testing/blob/main/Sample_size.png)
 
 
 ## 5) Experiment Analysis
